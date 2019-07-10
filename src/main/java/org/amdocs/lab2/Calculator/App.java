@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+	Substraction substraction = new Substraction();
+	substraction.evaluate(3,2);
     }
 }
