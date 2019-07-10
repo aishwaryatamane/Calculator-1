@@ -10,7 +10,7 @@ public class App
     {
 	Substraction substraction = new Substraction();
 	double result = substraction.evaluate(3,2);
-	System.out.println(result);
+	assertEquals(1,result,0.001);
     }
 }
 
