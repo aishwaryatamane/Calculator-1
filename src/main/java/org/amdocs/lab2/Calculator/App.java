@@ -9,6 +9,8 @@ public class App
     public static void main( String[] args )
     {
 	Substraction substraction = new Substraction();
-	substraction.evaluate(3,2);
+	double result = substraction.evaluate(3,2);
+	System.out.println(result);
     }
 }
+
